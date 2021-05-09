@@ -1,0 +1,9 @@
+werkzeug
+flask
+Flask-SocketIO==4.3.0
+gevent==1.4.0
+python-engineio==3.8.2.post1
+python-socketio==4.5.1
+eventlet
+redis==2.10.5
+redlock-py==1.0.8
