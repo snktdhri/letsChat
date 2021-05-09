@@ -1,7 +1,7 @@
 set +x
 ps aux | grep app.py | grep -iv grep | awk '{print $2}' | xargs sudo kill -9
 mkdir -p logs
-if [ ! -d ven ]; then 
+if [ ! -d venv ]; then 
     python3 -m venv venv
     
 fi
